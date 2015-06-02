@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365BB7F61B1DD4C3003FA19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BB7F51B1DD4C3003FA19C /* AppDelegate.swift */; };
+		365BB7F81B1DD4C3003FA19C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BB7F71B1DD4C3003FA19C /* ViewController.swift */; };
+		365BB7FB1B1DD4C3003FA19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365BB7F91B1DD4C3003FA19C /* Main.storyboard */; };
+		365BB7FD1B1DD4C3003FA19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365BB7FC1B1DD4C3003FA19C /* Images.xcassets */; };
+		365BB8001B1DD4C3003FA19C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365BB7FE1B1DD4C3003FA19C /* LaunchScreen.xib */; };
+		365BB80C1B1DD4C3003FA19C /* SwiftFTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BB80B1B1DD4C3003FA19C /* SwiftFTPTests.swift */; };
+		365BB8171B1DD4E8003FA19C /* PutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BB8161B1DD4E8003FA19C /* PutController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		365BB8061B1DD4C3003FA19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365BB7E81B1DD4C2003FA19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365BB7EF1B1DD4C3003FA19C;
+			remoteInfo = SwiftFTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		365BB7F01B1DD4C3003FA19C /* SwiftFTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365BB7F41B1DD4C3003FA19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365BB7F51B1DD4C3003FA19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		365BB7F71B1DD4C3003FA19C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		365BB7FA1B1DD4C3003FA19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		365BB7FC1B1DD4C3003FA19C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		365BB7FF1B1DD4C3003FA19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		365BB8051B1DD4C3003FA19C /* SwiftFTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365BB80A1B1DD4C3003FA19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365BB80B1B1DD4C3003FA19C /* SwiftFTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFTPTests.swift; sourceTree = "<group>"; };
+		365BB8151B1DD4E7003FA19C /* SwiftFTP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftFTP-Bridging-Header.h"; sourceTree = "<group>"; };
+		365BB8161B1DD4E8003FA19C /* PutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutController.m; sourceTree = "<group>"; };
+		365BB8181B1DD53C003FA19C /* PutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PutController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365BB7ED1B1DD4C3003FA19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BB8021B1DD4C3003FA19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365BB7E71B1DD4C2003FA19C = {
+			isa = PBXGroup;
+			children = (
+				365BB8181B1DD53C003FA19C /* PutController.h */,
+				365BB8161B1DD4E8003FA19C /* PutController.m */,
+				365BB7F21B1DD4C3003FA19C /* SwiftFTP */,
+				365BB8081B1DD4C3003FA19C /* SwiftFTPTests */,
+				365BB7F11B1DD4C3003FA19C /* Products */,
+				365BB8151B1DD4E7003FA19C /* SwiftFTP-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		365BB7F11B1DD4C3003FA19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365BB7F01B1DD4C3003FA19C /* SwiftFTP.app */,
+				365BB8051B1DD4C3003FA19C /* SwiftFTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365BB7F21B1DD4C3003FA19C /* SwiftFTP */ = {
+			isa = PBXGroup;
+			children = (
+				365BB7F51B1DD4C3003FA19C /* AppDelegate.swift */,
+				365BB7F71B1DD4C3003FA19C /* ViewController.swift */,
+				365BB7F91B1DD4C3003FA19C /* Main.storyboard */,
+				365BB7FC1B1DD4C3003FA19C /* Images.xcassets */,
+				365BB7FE1B1DD4C3003FA19C /* LaunchScreen.xib */,
+				365BB7F31B1DD4C3003FA19C /* Supporting Files */,
+			);
+			path = SwiftFTP;
+			sourceTree = "<group>";
+		};
+		365BB7F31B1DD4C3003FA19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				365BB7F41B1DD4C3003FA19C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		365BB8081B1DD4C3003FA19C /* SwiftFTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				365BB80B1B1DD4C3003FA19C /* SwiftFTPTests.swift */,
+				365BB8091B1DD4C3003FA19C /* Supporting Files */,
+			);
+			path = SwiftFTPTests;
+			sourceTree = "<group>";
+		};
+		365BB8091B1DD4C3003FA19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				365BB80A1B1DD4C3003FA19C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365BB7EF1B1DD4C3003FA19C /* SwiftFTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BB80F1B1DD4C3003FA19C /* Build configuration list for PBXNativeTarget "SwiftFTP" */;
+			buildPhases = (
+				365BB7EC1B1DD4C3003FA19C /* Sources */,
+				365BB7ED1B1DD4C3003FA19C /* Frameworks */,
+				365BB7EE1B1DD4C3003FA19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFTP;
+			productName = SwiftFTP;
+			productReference = 365BB7F01B1DD4C3003FA19C /* SwiftFTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		365BB8041B1DD4C3003FA19C /* SwiftFTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BB8121B1DD4C3003FA19C /* Build configuration list for PBXNativeTarget "SwiftFTPTests" */;
+			buildPhases = (
+				365BB8011B1DD4C3003FA19C /* Sources */,
+				365BB8021B1DD4C3003FA19C /* Frameworks */,
+				365BB8031B1DD4C3003FA19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365BB8071B1DD4C3003FA19C /* PBXTargetDependency */,
+			);
+			name = SwiftFTPTests;
+			productName = SwiftFTPTests;
+			productReference = 365BB8051B1DD4C3003FA19C /* SwiftFTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365BB7E81B1DD4C2003FA19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					365BB7EF1B1DD4C3003FA19C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					365BB8041B1DD4C3003FA19C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 365BB7EF1B1DD4C3003FA19C;
+					};
+				};
+			};
+			buildConfigurationList = 365BB7EB1B1DD4C2003FA19C /* Build configuration list for PBXProject "SwiftFTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365BB7E71B1DD4C2003FA19C;
+			productRefGroup = 365BB7F11B1DD4C3003FA19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365BB7EF1B1DD4C3003FA19C /* SwiftFTP */,
+				365BB8041B1DD4C3003FA19C /* SwiftFTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365BB7EE1B1DD4C3003FA19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BB7FB1B1DD4C3003FA19C /* Main.storyboard in Resources */,
+				365BB8001B1DD4C3003FA19C /* LaunchScreen.xib in Resources */,
+				365BB7FD1B1DD4C3003FA19C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BB8031B1DD4C3003FA19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365BB7EC1B1DD4C3003FA19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BB8171B1DD4E8003FA19C /* PutController.m in Sources */,
+				365BB7F81B1DD4C3003FA19C /* ViewController.swift in Sources */,
+				365BB7F61B1DD4C3003FA19C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BB8011B1DD4C3003FA19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BB80C1B1DD4C3003FA19C /* SwiftFTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		365BB8071B1DD4C3003FA19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365BB7EF1B1DD4C3003FA19C /* SwiftFTP */;
+			targetProxy = 365BB8061B1DD4C3003FA19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		365BB7F91B1DD4C3003FA19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365BB7FA1B1DD4C3003FA19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		365BB7FE1B1DD4C3003FA19C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365BB7FF1B1DD4C3003FA19C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		365BB80D1B1DD4C3003FA19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		365BB80E1B1DD4C3003FA19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365BB8101B1DD4C3003FA19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftFTP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		365BB8111B1DD4C3003FA19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftFTP-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		365BB8131B1DD4C3003FA19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftFTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFTP.app/SwiftFTP";
+			};
+			name = Debug;
+		};
+		365BB8141B1DD4C3003FA19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftFTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFTP.app/SwiftFTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365BB7EB1B1DD4C2003FA19C /* Build configuration list for PBXProject "SwiftFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BB80D1B1DD4C3003FA19C /* Debug */,
+				365BB80E1B1DD4C3003FA19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365BB80F1B1DD4C3003FA19C /* Build configuration list for PBXNativeTarget "SwiftFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BB8101B1DD4C3003FA19C /* Debug */,
+				365BB8111B1DD4C3003FA19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		365BB8121B1DD4C3003FA19C /* Build configuration list for PBXNativeTarget "SwiftFTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BB8131B1DD4C3003FA19C /* Debug */,
+				365BB8141B1DD4C3003FA19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365BB7E81B1DD4C2003FA19C /* Project object */;
+}
