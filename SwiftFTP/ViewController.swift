@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     var sendFile : PutController = PutController()
     
-    let username = "ckon9214"
-    let password = "Techno#67"
+    let username = "username"
+    let password = "password"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
 
     func saveData(){
         
-        var filename = "ftp://ckonkol.com/app-location/app.txt"
+        var filename = "ftp://website.com/docs/app.txt"
         
         // Converting the messing filename into one that can be used as a URL
         let convertedStringForURL = filename.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA35840B-B60C-4FBC-A4F6-3EB186347C7F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftFTP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDE476F8C8049B332A7B3F8F2EBF10ADBF7F1A4B</key>
+		<string>https://github.com/ioscourse/SwiftFTP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftFTP.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDE476F8C8049B332A7B3F8F2EBF10ADBF7F1A4B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ioscourse/SwiftFTP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDE476F8C8049B332A7B3F8F2EBF10ADBF7F1A4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDE476F8C8049B332A7B3F8F2EBF10ADBF7F1A4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftFTP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
